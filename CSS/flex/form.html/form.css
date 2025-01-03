@@ -1,0 +1,82 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.con
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con > .con2
+{
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    border: 2px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px ;
+}
+
+.con2 >h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.con2 > h2
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.con2 > button
+{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: navy;
+
+}
+
+#name
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#pass
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#Email
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.con2 > button:hover
+{
+    background-color: rgba(0, 0, 255, 0.797);
+
+}

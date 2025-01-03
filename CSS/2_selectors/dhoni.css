@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+
+    background-color: black;
+}
+
+.thala
+{
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+.thala img
+{
+    border-radius: 50%;
+    border-color:20px  blue;
+    border: 2px solid blue;
+}
+
+.thala,h1,p
+{
+    text-align: center;
+    line-height: 2
+    ;
+}
+.thala h1
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 0 2px orange;
+}
+.thala p{
+
+    font-weight: bold;
+}
+
+.thala button
+{
+    padding: 10px 20px;
+    color:white;
+    background-color:rgb(33, 33, 120);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.thala button:hover
+{
+    background-color:rgb(4, 4, 255) ;
+}

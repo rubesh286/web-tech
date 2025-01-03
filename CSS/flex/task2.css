@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.card
+{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card > .card1
+{
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.card h1{
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card button
+{
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    
+}
+.card > .card2
+{
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+}
+
+.card button:hover
+{
+    background-color: white;
+    color: black;
+}
+

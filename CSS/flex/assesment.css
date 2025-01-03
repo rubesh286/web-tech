@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+.login{
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name>p {
+    padding: 20px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.Email>p{
+    padding: 20px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.Password>p{
+    padding: 20px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    
+}
+ 
+.button{
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}

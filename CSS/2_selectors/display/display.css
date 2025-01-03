@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(228, 207, 162);
+    
+}
+
+.container
+{
+
+    border: 2px solid white;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 2px 1px 2px orange;
+    border-radius: 20px;
+
+}
+
+.container > button
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1;
+    background-color:#555;
+    color: white;
+    cursor: pointer;
+}
+
+.container2
+{
+    height: 400px;
+    width: 400px;
+    border: 3px solid green;
+    margin-top: 20px;
+}
+
+.container2 > .box
+{
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+}
+
+

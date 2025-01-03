@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul
+{
+    /* border: 2px solid red; */
+    display: flex;
+    cursor: pointer;
+    
+
+}
+
+ h2 >span
+ {
+    color: red;
+    font-style: italic;
+
+}
+
+ul > li
+
+{
+    margin-right: 10px;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.nav > .buttons > button
+{
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+
+#en
+{
+    background-color: blue;
+    margin-left: 10px;
+}
+
+ul > li:hover
+{
+    color: rgb(216, 18, 18);
+    text-decoration: underline;
+}
+
+.nav > .buttons > button:hover
+{
+    background-color: rgba(0, 128, 0, 0.484);
+
+}
+
+#en:hover
+{
+    background-color: rgba(0, 0, 255, 0.571);
+}

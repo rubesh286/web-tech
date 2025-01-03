@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.con
+{
+    background-color: rgb(4, 78, 112);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.con > .box
+{
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    display: block;
+    
+}
+
+.con >.box > form > input
+{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.box > form > label
+{ 
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+button
+{
+    padding: 10px;
+    background-color: rgb(41, 41, 164);
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.box > h1
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#p1
+{
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: grey;
+}
+
+footer > .pa
+{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+footer > .pa > :nth-child(2)
+{
+    margin-left: 5px;
+    color: rgb(0, 191, 255);
+}
+
+button:hover
+{
+    background-color:rgb(44, 44, 130) ;
+}
+
+footer > .pa > :nth-child(2):hover
+{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
