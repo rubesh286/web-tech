@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.inner
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    transition: all 2s ease-in 2s; 
+
+    /* transition-property: all; */
+    /* transition-duration: 2s;  */
+    /* transition-timing-function: ease-in;  */
+    /* transition-delay: 2s;               */
+
+    cursor: pointer;
+}
+
+.inner:hover
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+}
