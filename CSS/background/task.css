@@ -1,0 +1,225 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.con > h1,h2
+{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+
+}
+.con
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-attachment: fixed;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+#one
+{
+    background-image: url("https://static.toiimg.com/thumb/110965104/Water-bodies.jpg?width=636&height=358&resize=4");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#two
+{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Anatomy_of_a_Sunset-2.jpg/1200px-Anatomy_of_a_Sunset-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+ #three
+ {
+    background-image: url("https://miro.medium.com/v2/resize:fit:1200/1*-N9itIZGxd2FvtbbDnlQIg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }   
+
+ #four
+ {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZnU0ClN8Ay0fkWa6czGKNHUme7RaEYpvaQ&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
