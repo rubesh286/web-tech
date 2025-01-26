@@ -1,0 +1,154 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.outer
+{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.outer > .left
+{
+    border: 2px solid white;
+    height: 400px;
+    width: 400px;
+
+}
+
+.left > .box
+{
+    /* animation: moving 1.5s ease-in infinite alternate; */
+    animation: total_moving 1.5s ease-in infinite alternate ;
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+
+}
+
+.right
+{
+    border: 2px solid white;
+    height: 400px;
+    width: 400px;
+
+}
+
+.right > .box
+{
+    animation: rotations 1.5s linear infinite alternate;
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+
+}
+
+.downr
+{
+    border: 2px solid white;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.downr > .box
+{
+    animation: rotations 1.5s linear infinite ;
+    border-top:2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+.downl
+{ 
+    animation:rotations 1.5s ease-in infinite;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    
+
+}
+.downl > .box
+{
+
+    
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+@keyframes moving
+{
+
+    from
+    {
+        transform: translate(0,0);
+    }
+
+    to
+    {
+        transform: translate(300px,0);
+    }
+
+}
+
+@keyframes total_moving
+{
+    0%
+    {
+        transform: translate(0,0);
+    }
+
+    25%
+    {
+        transform: translate(300px,0);
+        background-color: aliceblue;
+    }
+
+    50%
+    {
+        transform: translate(300px,300px);
+        background-color: red;
+
+    }
+
+    75%
+    {
+        transform: translate(0px,300px);
+    }
+
+
+}
+
+@keyframes rotations
+{
+
+    from
+    {
+        transform: rotate(0,0);
+
+    }
+
+    to
+    {
+        transform: rotate(360deg);
+    }
+
+}
