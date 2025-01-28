@@ -58,5 +58,36 @@ console.log(subjects.indexOf("java"))
 console.log(subjects.includes('html'));
 
 
+// ! 7.concat()
+
+// it is used to combine two or more than two arrays.
+
+let arr1=[10,20]
+let arr2=[90,80]
+
+
+let combinedArr=arr1.concat(arr2)
+console.log(combinedArr);
+
+
+// ! 8.join()
+
+// It is used to convert array to string .
+
+let char=['H','E','L','L','O']
+
+console.log(char.join("-"));
+
+
+// ! 9. Reverse
+
+// It is used to reverse the array.
+
+console.log(char.reverse());
+
+
+
+
+
 
 
