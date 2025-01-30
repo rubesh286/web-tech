@@ -20,6 +20,8 @@ console.log(arr);
 
 // ! 2.pop()
 
+// It is used to remove the element at the end of the array
+
 let names=['rohit','virat','dhoni','ruthuraj gaikwad']
 
 names.pop()
