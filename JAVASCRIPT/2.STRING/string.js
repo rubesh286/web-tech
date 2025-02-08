@@ -125,6 +125,20 @@ console.log(combine);
 
 
 
+//! string Interpolation
+
+
+let a = 10
+let b = 20
+
+console.log(`the value of a is ${a}`);  // only using backtick
+
+console.log(`the value of a is ${b}`);
+
+console.log(`the addition of ${a} and ${b} is ${a+b}`);
+
+
+
 
 
 
