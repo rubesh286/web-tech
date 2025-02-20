@@ -47,16 +47,15 @@ console.log(myname)
  /* ! data types */
 
 
- /* ! 1.primitive datatype */
+//   ! 1.primitive datatype 
 
+//  number , boolean , string , undefiend , null , bigint 
 
- /* number , boolean , string , undefiend , null , bigint */
-
- /* ! Non-Primitve datatype */
+// ! Non-Primitve datatype 
 
  /* array , object , function */
 
- /* ! Number */
+//  ! Number 
 
 let num1 = 20
 

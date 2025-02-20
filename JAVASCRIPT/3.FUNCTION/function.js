@@ -33,7 +33,7 @@ let sum = add(20, 30)
 console.log(sum);
 
 
-// ! ananymous functio
+// ! ananymous function
 
 // function that does not have any name
 
@@ -41,7 +41,7 @@ console.log(sum);
 
 // ?                     }
 
-// now we have to store this functio in one variable
+// now we have to store this function in one variable
 
 let adde = function (a, b) {
     console.log("I am function with exprression");

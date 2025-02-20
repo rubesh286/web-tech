@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events </title>
+
+    <style>
+
+        .con1{
+            height: 200px;
+            width: 300px;
+            border: 1px solid red;
+            border-radius: 15px;
+            margin: 5px;
+        }
+
+        .dark{
+            background-color: black;
+            color:white;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+
+    <h1> Events in javascript</h1>
+    
+
+    <button onclick="msg()" onclick="msg2()"> give msg</button>
+
+    <button ondblclick="hello()"> double click me</button>
+
+    <div class="con1" onmouseover="hi()" id="con1" onmouseout="bye()" >
+
+    </div>
+
+    <button onclick="changeColor()"> change color</button>
+
+
+    <button id="btn1"> event listener</button>
+
+
+    <button id="btn2"> add </button>
+
+
+    <input type="text" id="inp1" >
+
+
+    <input type="text" id="inp2" >
+
+    <div id="box">
+
+    </div>
+
+
+    <select name="" id="select">
+
+
+        <option value="initial">select color</option>
+        <option value="yellow">yellow</option>
+        <option value="green">green</option>
+        <option value="blue">blue</option>
+    </select>
+
+
+    <form action="" id="form">
+
+        <label for="">enter name</label>
+        <input type="text" id="userName">
+        <label for="">enter password</label>
+        <input type="text" id="userPass">
+
+        <button>signup</button>
+    </form>
+
+
+
+    <script src="./event.js"></script>
+</body>
+</html>

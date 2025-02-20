@@ -112,6 +112,8 @@ console.log(numbers3);  // [10,20,'hi',30,40,50,60]
 
 // ! 11.Higher order function
 
+// ! foreach
+
 // It is higher order array method and it is usedto traverse the aaray.
 // it has three parameters (element,index,array)
 // It can not return anything

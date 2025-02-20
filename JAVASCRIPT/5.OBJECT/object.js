@@ -52,7 +52,7 @@ console.log(keys);
 
 // console.log(Object.keys(pen));  
 
-// ! Object values ()
+// ! Object values () 
 
 //  it will return one array it will store all the values
 
@@ -61,7 +61,41 @@ let values=Object.values(pen)
 console.log(values);
 
 
-// ! 
+// ! object entries
+
+let val=Object.entries(pen)
+
+console.log(val);
+
+// ! obj.frezee           // we cant able to add,delet,modify
+
+// Object.freeze(pen)  
+
+console.log(pen);
+
+// ! obj.isfrozen
+
+// console.log(Object.isFrozen(pen));
+
+// ! sealed                   // we can modify but we cant add,delete
+
+Object.seal(pen)
+
+brand="flair"
+
+
+
+// ! is seal
+
+Object.isSealed(pen)
+
+// !  hasownproperty
+
+console.log(pen.hasOwnProperty("price"));
+
+
+
+
 
 
 

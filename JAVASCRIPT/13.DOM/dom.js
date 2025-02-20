@@ -53,6 +53,43 @@ let head=document.getElementById('heading3')
 head.style.color="red"
 head.style.backgroundColor="black"
 
+//! 4. how to add/remove class
 
+let con4 = document.getElementById("con4")
+
+con4.classList.add("dark")
+con4.classList.remove("hello")
+
+console.log(con4.classList);
+
+
+//! 5. how to create element
+
+let para = document.createElement("h1")
+
+para.innerText = "I am paragraph from js file"
+
+para.style.color = "green"
+
+// con4.append(para)
+// con4.prepend(para)
+// con4.after(para)
+con4.before(para)
+
+
+
+
+
+let subjects = ["html","css","js","java"]
+
+subjects.map((ele)=>{
+    
+    let li = document.createElement("li")
+    li.innerText = ele
+
+    let ol = document.getElementById("ol")
+
+    ol.append(li)
+})
 
 
